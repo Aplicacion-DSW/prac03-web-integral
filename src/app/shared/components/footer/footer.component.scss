@@ -1,0 +1,31 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .footer {
+      padding: 50px 0;
+    }
+  }
+  
+  ul.list-inline {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.list-inline > li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul.list-inline > li:last-child {
+    margin-right: 0;
+  }
+  

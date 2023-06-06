@@ -1,0 +1,79 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #8200b6;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #41018a;
+  }
+  
+  .card {
+    border: none;
+    margin-bottom: 2rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #8200b6;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .btn-primary {
+    background-color: #0077b6;
+    border-color: #0077b6;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005d8f;
+    border-color: #005d8f;
+  }
+  
+  .list-group-item {
+    border-color: #dee2e6;
+  }
+  
+  .list-group-item i {
+    color: #0077b6;
+  }
+  
+  .display-4 {
+    color: #0077b6;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .shadow {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
