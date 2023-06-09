@@ -20,6 +20,9 @@
                         </mat-error>
                     </mat-form-field>
                     <button type="submit" mat-raised-button color="primary" [disabled]="loginForm.invalid">Acceder</button>
+                    <div *ngIf="tokenVisible"> reCAPTCHA Token <br />
+                        <p style="color:blueviolet">{{reCAPTCHAToken}}</p>
+                    </div>
                 </form>
             </mat-card-content>
         </mat-card>
